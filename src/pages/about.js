@@ -3,13 +3,13 @@ import * as React from "react";
 import Layout from "../components/layout";
 
 // Step 2: Define your component
-const IndexPage = () => {
+const AboutPage = () => {
   return (
-    <Layout pageTitle="首页">
-      <p>首</p>
+    <Layout pageTitle="关于我">
+      <p>关于</p>
     </Layout>
-  );
-};
+  )
+}
 
 // Step 3: Export your component
-export default IndexPage;
+export default AboutPage
