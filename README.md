@@ -1,3 +1,7 @@
+![Gatsby](https://www.gatsbyjs.com/Gatsby-Monogram.svg)
+
+---
+
 # my-gatsby-site
 
 > 参考Gatsby[文档](https://www.gatsbyjs.com/docs/tutorial/)的练习
