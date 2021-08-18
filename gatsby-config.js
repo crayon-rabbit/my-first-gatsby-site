@@ -1,7 +1,11 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "我的站点",
+    title: `${process.env.TEST_TITLE}`,
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -14,7 +18,15 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `test`,
+        path: `${__dirname}/test`,
+      },
+    },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-react-helmet",
   ],
 };
