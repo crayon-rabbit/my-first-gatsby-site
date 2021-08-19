@@ -1,32 +1,37 @@
-require("dotenv").config({
+require(`dotenv`).config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
     title: `${process.env.TEST_TITLE}`,
   },
   plugins: [
-    "gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    `gatsby-plugin-gatsby-cloud`,
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
+        name: `data`,
+        path: `${__dirname}/data`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
         path: `${__dirname}/blog`,
       },
     },
+    `gatsby-plugin-mdx`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-transformer-json`,
       options: {
-        name: `test`,
-        path: `${__dirname}/test`,
+        typeName: `Json`, // a fixed string
       },
     },
-    "gatsby-plugin-mdx",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-react-helmet",
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
   ],
 };

@@ -1,0 +1,14 @@
+[
+  {
+    "level": "info",
+    "message": "hurray"
+  },
+  {
+    "level": "info",
+    "message": "it works"
+  },
+  {
+    "level": "warning",
+    "message": "look out"
+  }
+]

@@ -1,6 +1,6 @@
 # my-gatsby-site
 
-> 参考 Gatsby[文档](https://www.gatsbyjs.com/docs/tutorial/)的练习
+> 参考 Gatsby[文档](https://www.gatsbyjs.com/docs/tutorial/)的练习，[链接](https://myfirstgatsbysitemain96692.gatsbyjs.io/blog/)
 
 ## Technologies used 🛠️ 技术栈
 
@@ -9,6 +9,7 @@
 - [React](https://zh-hans.reactjs.org/) - 前端 js 库
 - [GraphQL](https://www.howtographql.com/)/[GraphQL](https://graphql.cn/) - API 查询语言
 - [Markdown](https://www.markdown.xyz/) - 轻量级标记语言
+- [MDX](https://mdxjs.com/)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 
 ## 安装
@@ -62,17 +63,17 @@ git push
 
 ## 项目结构
 
-- blog 博客文章数据
+- data 数据
 - src
+  - api 函数映射
   - components 通用组件
-    - layout 布局组件
-  - images （通用？）图片
+    - Layout 布局
+    - Nav 导航栏
   - pages 路由映射
     - blog 博客页面
     - 404.js 404 页面
-    - about.js 关于页面
     - index.js 首页
-  - api 函数映射
+  - utils 工具类函数
 - gatsby-config.js [基本配置文件](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/)
 - gatsby-node.js [节点配置文件](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
 - gatsby-browser.js 客户端相关配置。一些浏览器相关的 API 通过在这个文件里去实现，比如一些监听路由变化，注册 serviceWorker 等等。
@@ -109,6 +110,7 @@ git push
 - gatsby-transformer-remark 解析.md 文件
   - allMarkdownRemark
   - markdownRemark
+- gatsby-transformer-json 解析json
 
 ### 评论插件（形如 gatsby-remark-XXX）
 
@@ -133,14 +135,14 @@ git push
       - `String!` 非空字符串
       - `[String!]` 字符串数组可以为空，不能有空值元素
       - `[Episode!]!` 非空 Episode 数组
-    - interface 接口
-    - union 联合
     - query 查询
     - mutation 变更
-    - input 输入
-    - enum 枚举
     - subscription 订阅
+    - input 输入
+    - union 联合
     - fragment 片段
+  - interface 接口
+  - enum 枚举
 
 ```js
 type Query {
@@ -170,22 +172,6 @@ type Post {
   author: Person!
 }
 ```
-
-### 查询字段
-
-- allFile
-  - edges
-    - node 文件节点
-- allMdx
-  - nodes
-    - frontmatter 前言
-    - parent 原始源节点
-      - modifiedTime 文件更改时间
-    - slug 文件名
-- mdx
-  - frontmatter 前言
-- site 基本配置文件
-  - siteMetadata
 
 ### 查询语句
 
@@ -236,10 +222,9 @@ type Post {
 
 ## TODO
 
-- [ ] 了解 GraphQL
+- [x] 了解 GraphQL
 - [ ] 脚手架的 CMS
 - [ ] 脚手架的 styling system
 - [ ] 脚手架的其他插件
 - [x] [用户身份验证](https://www.gatsbyjs.com/docs/how-to/routing/client-only-routes-and-user-authentication/)
-- [ ] [Gatsby 节点 API](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
-- [ ] [无服务器功能](https://www.gatsbyjs.com/docs/reference/functions/)
+- [x] [无服务器功能](https://www.gatsbyjs.com/docs/reference/functions/)
