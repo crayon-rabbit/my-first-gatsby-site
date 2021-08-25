@@ -25,12 +25,7 @@ module.exports = {
     `gatsby-plugin-mdx`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-json`,
-      options: {
-        typeName: `Json`, // a fixed string
-      },
-    },
+    `gatsby-transformer-json`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
   ],

@@ -1,0 +1,30 @@
+[
+  {
+    "account": {
+      "charactor": {
+        "name": "鬼"
+      }
+    }
+  },
+  {
+    "account": {
+      "charactor": {
+        "name": "月"
+      }
+    }
+  },
+  {
+    "account": {
+      "charactor": {
+        "name": "识"
+      }
+    }
+  },
+  {
+    "account": {
+      "weapon": {
+        "name": "重斩"
+      }
+    }
+  }
+]

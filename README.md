@@ -63,7 +63,10 @@ git push
 
 ## 项目结构
 
+- records 配装
 - data 数据
+  - arena_weekly.json 每周战场
+  - profile.json 用户信息
 - src
   - api 函数映射
   - components 通用组件
@@ -72,8 +75,9 @@ git push
   - pages 路由映射
     - blog 博客页面
     - 404.js 404 页面
-    - index.js 首页
+    - index.js 项目入口
   - utils 工具类函数
+  - styles 页面样式
 - gatsby-config.js [基本配置文件](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/)
 - gatsby-node.js [节点配置文件](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
 - gatsby-browser.js 客户端相关配置。一些浏览器相关的 API 通过在这个文件里去实现，比如一些监听路由变化，注册 serviceWorker 等等。
@@ -111,6 +115,8 @@ git push
   - allMarkdownRemark
   - markdownRemark
 - gatsby-transformer-json 解析json
+  - allXXXJson/allJson
+  - XXXJson/Json
 
 ### 评论插件（形如 gatsby-remark-XXX）
 
@@ -175,29 +181,38 @@ type Post {
 
 ### 查询语句
 
-- sort 排序
-  - fields 排序字段（可以用数组指定多个）
-  - order 如何排序（可以用数组指定多个）
-    - DESC 降序
-    - ASC 升序
-- filter 过滤
-  - eq 等于
-  - ne 不等于
-  - regex 正则
-  - global
-  - in 数组元素
-  - nin 不在此数组元素
-  - gt 大于
-  - gte 大于等于
-  - lt 小于
-  - lte 小于等于
-  - elemMatch 过滤器，返回一个元素数组
-- skip 跳过
-- limit 数量限制
-- formatString 格式化日期（参考[Moment.js](https://momentjs.com/)的 Format Dates）
+- 用于集合
+  - sort 排序
+    - fields 排序字段（可以用数组指定多个）
+    - order 如何排序（可以用数组指定多个）
+      - DESC 降序
+      - ASC 升序（默认）
+  - filter 过滤
+    - eq 等于
+    - ne 不等于
+    - regex 正则
+    - global
+    - in 数组元素
+    - nin 不在此数组元素
+    - gt 大于
+    - gte 大于等于
+    - lt 小于
+    - lte 小于等于
+    - elemMatch 过滤器，返回一个元素数组
+  - skip 跳过
+  - limit 数量限制
+- 用于date字段
+  - formatString 格式化日期（参考[Moment.js](https://momentjs.com/)的 Format Dates）
+  - locale 语言
+- 用于excerpt字段
+  - pruneLength
+  - truncate
+  - format
+    - PLAIN
+    - HTML
 - ~~unit 长度单位~~
-  - METER
-  - FOOT
+  - ~~METER~~
+  - ~~FOOT~~
 - ~~first 前~~
 - ~~last 后~~
 
