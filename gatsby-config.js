@@ -1,10 +1,6 @@
-require(`dotenv`).config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
-
 module.exports = {
   siteMetadata: {
-    title: `${process.env.TEST_TITLE}`,
+    version: `v5.1`,
   },
   plugins: [
     `gatsby-plugin-gatsby-cloud`,
@@ -12,7 +8,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: `${__dirname}/data`,
+        path: `${__dirname}/records`,
       },
     },
     {

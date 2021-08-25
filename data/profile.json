@@ -1,29 +1,312 @@
 [
   {
     "account": {
-      "charactor": {
-        "name": "鬼"
+      "valkyrie": {
+        "valkyrie_type": 1,
+        "valkyrie_name": "琪亚娜 · 卡斯兰娜",
+        "valkyrie_alias": "Kiana Kaslanna",
+        "armor_name": "白骑士 · 月光",
+        "armor_alias": ["月光"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
       }
     }
   },
   {
     "account": {
-      "charactor": {
-        "name": "月"
+      "valkyrie": {
+        "valkyrie_type": 2,
+        "valkyrie_desc": "雷电 · 芽衣",
+        "valkyrie_alias": "Raiden Mei",
+        "armor_name": "雷电女王的鬼铠",
+        "armor_alias": ["鬼铠", "鬼"],
+        "armor_type": 3,
+        "armor_desc": "异能",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
       }
     }
   },
   {
     "account": {
-      "charactor": {
-        "name": "识"
+      "valkyrie": {
+        "valkyrie_type": 3,
+        "valkyrie_desc": "布洛妮娅 · 扎伊切克",
+        "valkyrie_alias": "Bronya Zaychik",
+        "armor_name": "次元边界突破",
+        "armor_alias": ["次元", "次"],
+        "armor_type": 2,
+        "armor_desc": "机械",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 26,
+        "stage_desc": "SS"
       }
     }
   },
   {
     "account": {
-      "weapon": {
-        "name": "重斩"
+      "valkyrie": {
+        "valkyrie_type": 1,
+        "valkyrie_name": "琪亚娜 · 卡斯兰娜",
+        "valkyrie_alias": "Kiana Kaslanna",
+        "armor_name": "女武神 · 游侠",
+        "armor_alias": ["游侠", "游"],
+        "armor_type": 2,
+        "armor_desc": "机械",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 1,
+        "valkyrie_name": "琪亚娜 · 卡斯兰娜",
+        "valkyrie_alias": "Kiana Kaslanna",
+        "armor_name": "圣女祈祷",
+        "armor_alias": ["圣女", "圣"],
+        "armor_type": 3,
+        "armor_desc": "异能",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 2,
+        "valkyrie_desc": "雷电 · 芽衣",
+        "valkyrie_alias": "Raiden Mei",
+        "armor_name": "影舞冲击",
+        "armor_alias": ["影舞", "影"],
+        "armor_type": 2,
+        "armor_desc": "机械",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 2,
+        "valkyrie_desc": "雷电 · 芽衣",
+        "valkyrie_alias": "Raiden Mei",
+        "armor_name": "女武神 · 强袭",
+        "armor_alias": ["强袭", "强"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 8,
+        "valkyrie_desc": "八重 · 樱",
+        "valkyrie_alias": "Yae Sakura",
+        "armor_name": "逆神巫女",
+        "armor_alias": ["巫女", "逆"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": true,
+        "wake_armor_name": "脉冲装 · 绯红",
+        "is_increase": false,
+        "is_special": false,
+        "wake_id": null,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 6,
+        "valkyrie_desc": "符华",
+        "valkyrie_alias": "Fu Hua",
+        "armor_name": "识之律者",
+        "armor_alias": ["识律", "识"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": true,
+        "wake_armor_name": "影骑士 · 月轮",
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 21,
+        "stage_desc": "S"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 5,
+        "valkyrie_desc": "德丽莎 · 阿波卡利斯",
+        "valkyrie_alias": "Theresa Apocalypse",
+        "armor_name": "朔夜观星",
+        "armor_alias": ["观星", "观"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": true,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 4,
+        "valkyrie_desc": "无量塔 · 姬子",
+        "valkyrie_alias": "Murata Himeko",
+        "armor_name": "战场疾风",
+        "armor_alias": ["疾风", "疾"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 13,
+        "valkyrie_desc": "希儿 · 芙乐艾",
+        "valkyrie_alias": "Seele Vollerei",
+        "armor_name": "幻海梦蝶",
+        "armor_alias": ["幻海", "梦蝶", "蝶"],
+        "armor_type": 4,
+        "armor_desc": "量子",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 10,
+        "valkyrie_desc": "阿琳姐妹",
+        "valkyrie_alias": "Vodka Girls",
+        "armor_name": "蓝莓特攻",
+        "armor_alias": ["蓝莓", "蓝"],
+        "armor_type": 2,
+        "armor_desc": "机械",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 7,
+        "valkyrie_desc": "丽塔 · 洛丝薇瑟",
+        "valkyrie_alias": "Rita Rossweisse",
+        "armor_name": "黯蔷薇",
+        "armor_alias": ["蔷薇", "蔷", "黯", "丽"],
+        "armor_type": 3,
+        "armor_desc": "异能",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
       }
     }
   }

@@ -21,8 +21,8 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <div className={layout}>
-      <Helmet title={`${pageTitle} | ${data.site.siteMetadata.title}`} />
-      <header className={siteTitle}>{data.site.siteMetadata.title}</header>
+      <Helmet title={`${pageTitle} | ${data.site.siteMetadata.version}`} />
+      <header className={siteTitle}></header>
       <Nav />
       <main>
         <h1 className={heading}>{pageTitle}</h1>
