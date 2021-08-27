@@ -8,7 +8,21 @@ const RecordPage = ({ data }) => {
       {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
           <h2>
-            <Link to={`/record/${node.slug}`}>{node.frontmatter.title}{node.frontmatter.my_score + '/'}{node.frontmatter.score}</Link>
+            <Link to={`/record/${node.slug}`}>
+              {node.frontmatter.my_score
+                ? node.frontmatter.armor_alias[0] +
+                  ` ` +
+                  node.frontmatter.boss_alias +
+                  ` ` +
+                  node.frontmatter.my_score +
+                  `/` +
+                  node.frontmatter.score
+                : node.frontmatter.armor_alias[0] +
+                  ` ` +
+                  node.frontmatter.boss_alias +
+                  ` ` +
+                  node.frontmatter.score}
+            </Link>
           </h2>
         </article>
       ))}
@@ -23,9 +37,10 @@ export const query = graphql`
         id
         slug
         frontmatter {
-          title
           score
           my_score
+          boss_alias
+          armor_alias
         }
       }
     }
