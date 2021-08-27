@@ -27,7 +27,7 @@ export default function FormPage() {
   }
 
   return (
-    <Layout pageTitle="自己调（自己写的）接口">
+    <Layout pageTitle="测试接口">
       <div>Server response: {serverResponse}</div>
       <form onSubmit={onSubmit} method="POST" action="/api/form">
         <label htmlFor="name">Name:</label>

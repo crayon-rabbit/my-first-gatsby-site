@@ -4,8 +4,10 @@
       "valkyrie": {
         "valkyrie_type": 1,
         "valkyrie_name": "琪亚娜 · 卡斯兰娜",
-        "valkyrie_alias": "Kiana Kaslanna",
+        "valkyrie_foreign_name": "Kiana Kaslanna",
+        "valkyrie_alias": ["琪亚娜", "草履虫", "虫"],
         "armor_name": "白骑士 · 月光",
+        "armor_foreign_name": "",
         "armor_alias": ["月光"],
         "armor_type": 1,
         "armor_desc": "生物",
@@ -25,9 +27,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 2,
-        "valkyrie_desc": "雷电 · 芽衣",
-        "valkyrie_alias": "Raiden Mei",
+        "valkyrie_name": "雷电 · 芽衣",
+        "valkyrie_foreign_name": "Raiden Mei",
+        "valkyrie_alias": ["芽衣"],
         "armor_name": "雷电女王的鬼铠",
+        "armor_foreign_name": "",
         "armor_alias": ["鬼铠", "鬼"],
         "armor_type": 3,
         "armor_desc": "异能",
@@ -47,9 +51,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 3,
-        "valkyrie_desc": "布洛妮娅 · 扎伊切克",
-        "valkyrie_alias": "Bronya Zaychik",
+        "valkyrie_name": "布洛妮娅 · 扎伊切克",
+        "valkyrie_foreign_name": "Bronya Zaychik",
+        "valkyrie_alias": ["板鸭", "布洛妮娅"],
         "armor_name": "次元边界突破",
+        "armor_foreign_name": "",
         "armor_alias": ["次元", "次"],
         "armor_type": 2,
         "armor_desc": "机械",
@@ -70,8 +76,10 @@
       "valkyrie": {
         "valkyrie_type": 1,
         "valkyrie_name": "琪亚娜 · 卡斯兰娜",
-        "valkyrie_alias": "Kiana Kaslanna",
+        "valkyrie_foreign_name": "Kiana Kaslanna",
+        "valkyrie_alias": ["琪亚娜", "草履虫", "虫"],
         "armor_name": "女武神 · 游侠",
+        "armor_foreign_name": "",
         "armor_alias": ["游侠", "游"],
         "armor_type": 2,
         "armor_desc": "机械",
@@ -92,8 +100,10 @@
       "valkyrie": {
         "valkyrie_type": 1,
         "valkyrie_name": "琪亚娜 · 卡斯兰娜",
-        "valkyrie_alias": "Kiana Kaslanna",
+        "valkyrie_foreign_name": "Kiana Kaslanna",
+        "valkyrie_alias": ["琪亚娜", "草履虫", "虫"],
         "armor_name": "圣女祈祷",
+        "armor_foreign_name": "",
         "armor_alias": ["圣女", "圣"],
         "armor_type": 3,
         "armor_desc": "异能",
@@ -113,9 +123,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 2,
-        "valkyrie_desc": "雷电 · 芽衣",
-        "valkyrie_alias": "Raiden Mei",
+        "valkyrie_name": "雷电 · 芽衣",
+        "valkyrie_foreign_name": "Raiden Mei",
+        "valkyrie_alias": ["芽衣"],
         "armor_name": "影舞冲击",
+        "armor_foreign_name": "",
         "armor_alias": ["影舞", "影"],
         "armor_type": 2,
         "armor_desc": "机械",
@@ -135,9 +147,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 2,
-        "valkyrie_desc": "雷电 · 芽衣",
-        "valkyrie_alias": "Raiden Mei",
+        "valkyrie_name": "雷电 · 芽衣",
+        "valkyrie_foreign_name": "Raiden Mei",
+        "valkyrie_alias": ["芽衣"],
         "armor_name": "女武神 · 强袭",
+        "armor_foreign_name": "",
         "armor_alias": ["强袭", "强"],
         "armor_type": 1,
         "armor_desc": "生物",
@@ -157,9 +171,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 8,
-        "valkyrie_desc": "八重 · 樱",
-        "valkyrie_alias": "Yae Sakura",
+        "valkyrie_name": "八重 · 樱",
+        "valkyrie_foreign_name": "Yae Sakura",
+        "valkyrie_alias": ["八重樱"],
         "armor_name": "逆神巫女",
+        "armor_foreign_name": "",
         "armor_alias": ["巫女", "逆"],
         "armor_type": 1,
         "armor_desc": "生物",
@@ -181,9 +197,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 6,
-        "valkyrie_desc": "符华",
-        "valkyrie_alias": "Fu Hua",
+        "valkyrie_name": "符华",
+        "valkyrie_foreign_name": "Fu Hua",
+        "valkyrie_alias": [],
         "armor_name": "识之律者",
+        "armor_foreign_name": "",
         "armor_alias": ["识律", "识"],
         "armor_type": 1,
         "armor_desc": "生物",
@@ -204,9 +222,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 5,
-        "valkyrie_desc": "德丽莎 · 阿波卡利斯",
-        "valkyrie_alias": "Theresa Apocalypse",
+        "valkyrie_name": "德丽莎 · 阿波卡利斯",
+        "valkyrie_foreign_name": "Theresa Apocalypse",
+        "valkyrie_alias": ["德丽莎"],
         "armor_name": "朔夜观星",
+        "armor_foreign_name": "",
         "armor_alias": ["观星", "观"],
         "armor_type": 1,
         "armor_desc": "生物",
@@ -226,9 +246,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 4,
-        "valkyrie_desc": "无量塔 · 姬子",
-        "valkyrie_alias": "Murata Himeko",
+        "valkyrie_name": "无量塔 · 姬子",
+        "valkyrie_foreign_name": "Murata Himeko",
+        "valkyrie_alias": ["姬"],
         "armor_name": "战场疾风",
+        "armor_foreign_name": "",
         "armor_alias": ["疾风", "疾"],
         "armor_type": 1,
         "armor_desc": "生物",
@@ -248,9 +270,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 13,
-        "valkyrie_desc": "希儿 · 芙乐艾",
-        "valkyrie_alias": "Seele Vollerei",
+        "valkyrie_name": "希儿 · 芙乐艾",
+        "valkyrie_foreign_name": "Seele Vollerei",
+        "valkyrie_alias": ["希儿"],
         "armor_name": "幻海梦蝶",
+        "armor_foreign_name": "",
         "armor_alias": ["幻海", "梦蝶", "蝶"],
         "armor_type": 4,
         "armor_desc": "量子",
@@ -270,9 +294,11 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 10,
-        "valkyrie_desc": "阿琳姐妹",
-        "valkyrie_alias": "Vodka Girls",
+        "valkyrie_name": "阿琳姐妹",
+        "valkyrie_foreign_name": "Vodka Girls",
+        "valkyrie_alias": ["阿琳", "莉莉娅"],
         "armor_name": "蓝莓特攻",
+        "armor_foreign_name": "",
         "armor_alias": ["蓝莓", "蓝"],
         "armor_type": 2,
         "armor_desc": "机械",
@@ -292,12 +318,135 @@
     "account": {
       "valkyrie": {
         "valkyrie_type": 7,
-        "valkyrie_desc": "丽塔 · 洛丝薇瑟",
-        "valkyrie_alias": "Rita Rossweisse",
+        "valkyrie_name": "丽塔 · 洛丝薇瑟",
+        "valkyrie_foreign_name": "Rita Rossweisse",
+        "valkyrie_alias": ["丽塔"],
         "armor_name": "黯蔷薇",
+        "armor_foreign_name": "",
         "armor_alias": ["蔷薇", "蔷", "黯", "丽"],
         "armor_type": 3,
         "armor_desc": "异能",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 9,
+        "valkyrie_name": "卡莲 · 卡斯兰娜",
+        "valkyrie_foreign_name": "Kallen Kaslana",
+        "valkyrie_alias": ["卡莲"],
+        "armor_name": "圣仪装 · 今样",
+        "armor_foreign_name": "",
+        "armor_alias": ["今样"],
+        "armor_type": 2,
+        "armor_desc": "机械",
+        "is_wake": true,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 17,
+        "valkyrie_name": "爱莉希雅",
+        "valkyrie_foreign_name": "Elysia",
+        "valkyrie_alias": [],
+        "armor_id": "66",
+        "armor_name": "粉色妖精小姐♪",
+        "armor_foreign_name": "",
+        "armor_alias": ["大粉毛"],
+        "armor_type": 3,
+        "armor_desc": "异能",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": false,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 21,
+        "stage_desc": "S"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 15,
+        "valkyrie_name": "明日香",
+        "valkyrie_foreign_name": "Asuka",
+        "valkyrie_alias": [],
+        "armor_name": "明日福音",
+        "armor_foreign_name": "Asuka",
+        "armor_alias": ["香香"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": true,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 21,
+        "stage_desc": "S"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 16,
+        "valkyrie_name": "菲谢尔",
+        "valkyrie_foreign_name": "Fischl",
+        "valkyrie_alias": [],
+        "armor_name": "断罪皇女！！",
+        "armor_foreign_name": "Prinzessin der Verurteilung",
+        "armor_alias": ["皇女", "小艾咪"],
+        "armor_type": 1,
+        "armor_desc": "生物",
+        "is_wake": false,
+        "is_increase": false,
+        "is_special": true,
+        "injury_type": 0,
+        "injury_desc": "未知",
+        "gain_type": 0,
+        "gain_desc": "未知",
+        "stage_type": 33,
+        "stage_desc": "SSS"
+      }
+    }
+  },
+  {
+    "account": {
+      "valkyrie": {
+        "valkyrie_type": 14,
+        "valkyrie_name": "幽兰黛尔",
+        "valkyrie_foreign_name": "Durandal",
+        "valkyrie_alias": [],
+        "armor_name": "女武神·荣光",
+        "armor_foreign_name": "Valkyrie Gloria",
+        "armor_alias": ["荣光", "A幽"],
+        "armor_type": 4,
+        "armor_desc": "量子",
         "is_wake": false,
         "is_increase": false,
         "is_special": false,

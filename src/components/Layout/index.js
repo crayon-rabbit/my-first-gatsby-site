@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
     query {
       site {
         siteMetadata {
-          title
+          version
         }
       }
     }

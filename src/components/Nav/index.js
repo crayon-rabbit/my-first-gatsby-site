@@ -16,8 +16,8 @@ const Nav = () => {
           </Link>
         </li>
         <li className={navItem}>
-          <Link to="/blog" className={navText}>
-            博客页面
+          <Link to="/record" className={navText}>
+            战场配装
           </Link>
         </li>
         <li className={navItem}>
