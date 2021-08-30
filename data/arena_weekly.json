@@ -1,11 +1,11 @@
 [
   {
-    "name": "坦克"
+    "boss_alias": "坦克"
   },
   {
-    "name": "马"
+    "boss_alias": "马"
   },
   {
-    "name": "狼"
+    "boss_alias": "狼"
   }
 ]

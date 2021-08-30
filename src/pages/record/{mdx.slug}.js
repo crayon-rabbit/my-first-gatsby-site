@@ -5,7 +5,11 @@ import Layout from "../../components/Layout";
 
 const RecordPost = ({ data }) => {
   return (
-    <Layout pageTitle={data.mdx.frontmatter.title}>
+    <Layout
+      pageTitle={
+        data.mdx.frontmatter.armor_alias[0] + ` ` + data.mdx.frontmatter.boss_alias
+      }
+    >
       <MDXRenderer>{data.mdx.body}</MDXRenderer>
     </Layout>
   );
@@ -13,9 +17,10 @@ const RecordPost = ({ data }) => {
 
 export const query = graphql`
   query ($id: String) {
-    mdx(id: {eq: $id}) {
+    mdx(id: { eq: $id }) {
       frontmatter {
-        title
+        boss_alias
+        armor_alias
       }
       body
     }
