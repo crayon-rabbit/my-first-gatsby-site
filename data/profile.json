@@ -15,11 +15,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 1792,
+        "gain_desc": ["时空", "吸引", "治疗"],
+        "stage_type": 23,
         "stage_desc": "S"
       }
     }
@@ -43,11 +43,11 @@
         "increase_stage_type": 12,
         "increase_stage_desc": "★★★★★★",
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 528,
+        "gain_desc": ["流血", "吸引"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -69,11 +69,11 @@
         "wake_armor_name": "白骑士 · 月光",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 23,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 2304,
+        "gain_desc": ["时空", "高频"],
+        "stage_type": 24,
         "stage_desc": "S1"
       }
     }
@@ -94,11 +94,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 5504,
+        "gain_desc": ["脆弱", "时空", "治疗", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -119,11 +119,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 528,
+        "gain_desc": ["流血", "吸引"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -146,9 +146,9 @@
         "is_special": false,
         "injury_type": 1,
         "injury_desc": "物理",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "gain_type": 2304,
+        "gain_desc": ["时空", "高频"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -171,9 +171,9 @@
         "is_special": false,
         "injury_type": 1,
         "injury_desc": "物理",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "gain_type": 4356,
+        "gain_desc": ["眩晕", "时空", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -188,20 +188,20 @@
         "armor_id": "56",
         "armor_name": "断罪影舞",
         "armor_foreign_name": "Danzai Spectramancer",
-        "armor_alias": ["影舞", "影", "鹦鹉"],
+        "armor_alias": ["断罪", "影"],
         "armor_type": 2,
         "armor_desc": "机械",
         "is_wake": false,
         "is_increase": true,
         "increase_armor_name": "影舞冲击",
-        "increase_stage_type": 0,
-        "increase_stage_desc": "未知",
+        "increase_stage_type": 12,
+        "increase_stage_desc": "★★★★★★",
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 32,
+        "gain_desc": ["重击"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -225,9 +225,9 @@
         "is_special": false,
         "injury_type": 4,
         "injury_desc": "雷伤",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
+        "gain_type": 6402,
+        "gain_desc": ["麻痹", "时空", "高频", "爆发"],
+        "stage_type": 23,
         "stage_desc": "S"
       }
     }
@@ -248,14 +248,14 @@
         "is_wake": false,
         "is_increase": true,
         "increase_armor_name": "女武神 · 强袭",
-        "increase_stage_type": 0,
-        "increase_stage_desc": "未知",
+        "increase_stage_type": 5,
+        "increase_stage_desc": "★★★",
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 6146,
+        "gain_desc": ["麻痹", "高频", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -278,9 +278,9 @@
         "is_special": false,
         "injury_type": 4,
         "injury_desc": "雷伤",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "gain_type": 2,
+        "gain_desc": ["麻痹"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -294,18 +294,18 @@
         "valkyrie_alias": ["芽衣"],
         "armor_id": "6",
         "armor_name": "脉冲装 · 绯红",
-        "armor_foreign_name": "",
+        "armor_foreign_name": "Raiden Mei",
         "armor_alias": ["绯红", "绯"],
         "armor_type": 1,
         "armor_desc": "生物",
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 4368,
+        "gain_desc": ["流血", "时空", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -326,11 +326,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
+        "injury_type": 1,
+        "injury_desc": "物理",
         "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "gain_desc": ["未知"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -351,11 +351,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 2048,
+        "gain_desc": ["高频"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -376,11 +376,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": true,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 3,
+        "injury_desc": "冰伤",
+        "gain_type": 2304,
+        "gain_desc": ["时空", "高频"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -402,12 +402,12 @@
         "wake_armor_name": "次元边界突破",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 23,
-        "stage_desc": "S1"
+        "injury_type": 3,
+        "injury_desc": "冰伤",
+        "gain_type": 4353,
+        "gain_desc": ["冻结", "时空", "爆发"],
+        "stage_type": 26,
+        "stage_desc": "S2"
       }
     }
   },
@@ -430,11 +430,11 @@
         "increase_stage_type": 12,
         "increase_stage_desc": "★★★★★★",
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 4928,
+        "gain_desc": ["虚弱", "时空", "吸引", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -456,11 +456,11 @@
         "wake_armor_name": "雪地狙击",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 4,
+        "gain_desc": ["眩晕"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -482,11 +482,11 @@
         "wake_armor_name": "驱动装 · 山吹",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 324,
+        "gain_desc": ["眩晕", "虚弱", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -507,11 +507,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 4370,
+        "gain_desc": ["麻痹", "流血", "时空", "爆发"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -532,11 +532,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 776,
+        "gain_desc": ["点燃", "时空", "吸引"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -557,11 +557,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 5504,
+        "gain_desc": ["脆弱", "时空", "治疗", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -582,11 +582,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 1,
+        "gain_desc": ["冻结"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -608,11 +608,11 @@
         "wake_armor_name": "融核装 · 深红",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 8,
+        "gain_desc": ["点燃"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -634,11 +634,11 @@
         "wake_armor_name": "战场疾风",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 3,
+        "injury_desc": "冰伤",
+        "gain_type": 1,
+        "gain_desc": ["冻结"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -659,11 +659,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 4130,
+        "gain_desc": ["麻痹", "重击", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -684,11 +684,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 292,
+        "gain_desc": ["眩晕", "重击", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -709,11 +709,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 1316,
+        "gain_desc": ["眩晕", "重击", "时空", "治疗"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -734,12 +734,12 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 30,
-        "stage_desc": "SS2"
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 4136,
+        "gain_desc": ["点燃", "重击", "爆发"],
+        "stage_type": 31,
+        "stage_desc": "SS☆"
       }
     }
   },
@@ -759,11 +759,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": true,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 1792,
+        "gain_desc": ["时空", "吸引", "治疗"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -784,15 +784,15 @@
         "is_wake": false,
         "is_increase": true,
         "increase_armor_name": "处刑装 · 紫苑",
-        "increase_stage_type": 0,
-        "increase_stage_desc": "未知",
+        "increase_stage_type": 5,
+        "increase_stage_desc": "★★★★★",
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 30,
-        "stage_desc": "SS2"
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 2320,
+        "gain_desc": ["流血", "时空", "高频"],
+        "stage_type": 35,
+        "stage_desc": "SS☆☆☆"
       }
     }
   },
@@ -813,11 +813,11 @@
         "wake_armor_name": "女武神 · 誓约",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 32,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 304,
+        "gain_desc": ["流血", "重击", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -838,12 +838,12 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
-        "stage_desc": "S"
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 2688,
+        "gain_desc": ["脆弱", "吸引", "高频"],
+        "stage_type": 29,
+        "stage_desc": "SS"
       }
     }
   },
@@ -863,12 +863,12 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 30,
-        "stage_desc": "SS2"
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 6192,
+        "gain_desc": ["流血", "重击", "高频", "爆发"],
+        "stage_type": 35,
+        "stage_desc": "SS☆☆☆"
       }
     }
   },
@@ -888,11 +888,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 6152,
+        "gain_desc": ["点燃", "高频", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -913,11 +913,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 2306,
+        "gain_desc": ["麻痹", "时空", "高频"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -939,11 +939,11 @@
         "wake_armor_name": "影骑士 · 月轮",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 4992,
+        "gain_desc": ["脆弱", "时空", "吸引", "爆发"],
+        "stage_type": 23,
         "stage_desc": "S"
       }
     }
@@ -965,11 +965,11 @@
         "wake_armor_name": "炽翎",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 776,
+        "gain_desc": ["点燃", "时空", "吸引"],
+        "stage_type": 23,
         "stage_desc": "S"
       }
     }
@@ -984,7 +984,7 @@
         "armor_id": "49",
         "armor_name": "雾都迅羽",
         "armor_foreign_name": "Hawk of the Fog",
-        "armor_alias": ["迅羽", "迅", "迅雷"],
+        "armor_alias": ["雾都", "迅", "迅雷"],
         "armor_type": 3,
         "armor_desc": "异能",
         "is_wake": false,
@@ -993,11 +993,11 @@
         "increase_stage_type": 12,
         "increase_stage_desc": "★★★★★★",
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 290,
+        "gain_desc": ["麻痹", "重击", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1018,11 +1018,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 6416,
+        "gain_desc": ["流血", "时空", "高频", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1043,11 +1043,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 384,
+        "gain_desc": ["虚弱", "时空"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -1068,12 +1068,12 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 28,
-        "stage_desc": "SS1"
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 6416,
+        "gain_desc": ["流血", "时空", "高频", "爆发"],
+        "stage_type": 31,
+        "stage_desc": "SS☆"
       }
     }
   },
@@ -1093,11 +1093,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 1284,
+        "gain_desc": ["眩晕", "时空", "治疗"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1118,11 +1118,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 770,
+        "gain_desc": ["麻痹", "时空", "吸引"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -1143,11 +1143,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 3,
+        "injury_desc": "冰伤",
+        "gain_type": 4097,
+        "gain_desc": ["冻结", "爆发"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -1168,11 +1168,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 2,
+        "gain_desc": ["麻痹"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1193,11 +1193,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 256,
+        "gain_desc": ["时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1218,11 +1218,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": true,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 258,
+        "gain_desc": ["麻痹", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1244,11 +1244,11 @@
         "wake_armor_name": "女武神 · 强袭",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 264,
+        "gain_desc": ["点燃", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1270,11 +1270,11 @@
         "wake_armor_name": "脉冲装 · 绯红",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 4112,
+        "gain_desc": ["流血", "爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1296,11 +1296,11 @@
         "wake_armor_name": "影舞冲击",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 3,
+        "injury_desc": "冰伤",
+        "gain_type": 1,
+        "gain_desc": ["冻结"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -1322,11 +1322,11 @@
         "wake_armor_name": "女武神 · 游侠",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 2176,
+        "gain_desc": ["脆弱", "高频"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1348,11 +1348,11 @@
         "wake_armor_name": "圣女祈祷",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 26,
+        "injury_type": 3,
+        "injury_desc": "冰伤",
+        "gain_type": 1,
+        "gain_desc": ["冻结"],
+        "stage_type": 29,
         "stage_desc": "SS"
       }
     }
@@ -1374,11 +1374,11 @@
         "wake_armor_name": "领域装 · 白练",
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 260,
+        "gain_desc": ["眩晕", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1402,11 +1402,11 @@
         "increase_stage_type": 12,
         "increase_stage_desc": "★★★★★★",
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 768,
+        "gain_desc": ["时空", "吸引"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1427,11 +1427,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 768,
+        "gain_desc": ["时空", "吸引"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1452,11 +1452,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 1,
+        "gain_desc": ["冻结"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1477,10 +1477,10 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
+        "injury_type": 3,
+        "injury_desc": "冰伤",
         "gain_type": 0,
-        "gain_desc": "未知",
+        "gain_desc": ["未知"],
         "stage_type": 0,
         "stage_desc": "未持有"
       }
@@ -1502,10 +1502,10 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
+        "injury_type": 1,
+        "injury_desc": "物理",
         "gain_type": 0,
-        "gain_desc": "未知",
+        "gain_desc": ["未知"],
         "stage_type": 0,
         "stage_desc": "未持有"
       }
@@ -1527,11 +1527,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 4096,
+        "gain_desc": ["爆发"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1552,11 +1552,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 776,
+        "gain_desc": ["点燃", "时空", "吸引"],
+        "stage_type": 23,
         "stage_desc": "S"
       }
     }
@@ -1577,10 +1577,10 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
+        "injury_type": 1,
+        "injury_desc": "物理",
         "gain_type": 0,
-        "gain_desc": "未知",
+        "gain_desc": ["未知"],
         "stage_type": 0,
         "stage_desc": "未持有"
       }
@@ -1602,11 +1602,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 2,
+        "injury_desc": "火伤",
+        "gain_type": 264,
+        "gain_desc": ["点燃", "时空"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1627,11 +1627,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": true,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 256,
+        "gain_desc": ["时空"],
+        "stage_type": 23,
         "stage_desc": "S"
       }
     }
@@ -1652,11 +1652,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": true,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 33,
+        "injury_type": 4,
+        "injury_desc": "雷伤",
+        "gain_type": 2304,
+        "gain_desc": ["时空", "高频"],
+        "stage_type": 36,
         "stage_desc": "SSS"
       }
     }
@@ -1677,11 +1677,11 @@
         "is_wake": false,
         "is_increase": false,
         "is_special": false,
-        "injury_type": 0,
-        "injury_desc": "未知",
-        "gain_type": 0,
-        "gain_desc": "未知",
-        "stage_type": 21,
+        "injury_type": 1,
+        "injury_desc": "物理",
+        "gain_type": 2304,
+        "gain_desc": ["时空", "高频"],
+        "stage_type": 23,
         "stage_desc": "S"
       }
     }

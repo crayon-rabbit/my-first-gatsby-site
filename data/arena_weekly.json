@@ -1,11 +1,5 @@
 [
   {
-    "boss_alias": "坦克"
-  },
-  {
-    "boss_alias": "马"
-  },
-  {
-    "boss_alias": "狼"
+    "boss_alias": ["地藏", "月轮", "龙虾"]
   }
 ]

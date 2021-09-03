@@ -9,19 +9,15 @@ const RecordPage = ({ data }) => {
         <article key={node.id}>
           <h2>
             <Link to={`/record/${node.slug}`}>
-              {node.frontmatter.my_score
-                ? node.frontmatter.armor_alias[0] +
-                  ` ` +
-                  node.frontmatter.boss_alias +
-                  ` ` +
-                  node.frontmatter.my_score +
-                  `/` +
-                  node.frontmatter.score
-                : node.frontmatter.armor_alias[0] +
-                  ` ` +
-                  node.frontmatter.boss_alias +
-                  ` ` +
-                  node.frontmatter.score}
+              {node.frontmatter.armor_alias[0]}
+              {` `}
+              {node.frontmatter.boss_alias}
+              {` `} {node.frontmatter.my_score}
+              {node.frontmatter.others_score
+                ? `(` + node.frontmatter.others_score + `)`
+                : ``}
+              {node.frontmatter.my_score ? `/` : ``}
+              {node.frontmatter.score}
             </Link>
           </h2>
         </article>
@@ -41,6 +37,7 @@ export const query = graphql`
           my_score
           boss_alias
           armor_alias
+          others_score
         }
       }
     }

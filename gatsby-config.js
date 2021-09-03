@@ -7,15 +7,9 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `records`,
-        path: `${__dirname}/records`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `data`,
         path: `${__dirname}/data`,
+        ignore: [`**/type\.md`],
       },
     },
     `gatsby-plugin-mdx`,

@@ -2,16 +2,6 @@
 
 > 参考 Gatsby[文档](https://www.gatsbyjs.com/docs/tutorial/)的练习，[链接](https://myfirstgatsbysitemain96692.gatsbyjs.io/blog/)
 
-## Technologies used 🛠️ 技术栈
-
-- [Gatsby](https://www.gatsbyjs.org/) - 静态站点生成器
-- [Reach Router](https://reach.tech/router/) - 路由管理
-- [React](https://zh-hans.reactjs.org/) - 前端 js 库
-- [GraphQL](https://www.howtographql.com/)/[GraphQL](https://graphql.cn/) - API 查询语言
-- [Markdown](https://www.markdown.xyz/) - 轻量级标记语言
-- [MDX](https://mdxjs.com/)
-- [CSS Modules](https://github.com/css-modules/css-modules)
-
 ## 安装
 
 ### 使用脚手架
@@ -61,11 +51,22 @@ git commit -m "XXX"
 git push
 ```
 
+## Technologies used 🛠️ 技术栈
+
+- [Gatsby](https://www.gatsbyjs.org/) - 静态站点生成器
+- [Reach Router](https://reach.tech/router/) - 路由管理
+- [React](https://zh-hans.reactjs.org/) - 前端 js 库
+- [GraphQL](https://www.howtographql.com/)/[GraphQL](https://graphql.cn/) - API 查询语言
+- [Markdown](https://www.markdown.xyz/) - 轻量级标记语言
+- [MDX](https://mdxjs.com/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+
 ## 项目结构
 
-- records 配装
 - data 数据
+  - records 配装
   - arena_weekly.json 每周战场
+  - item_valkyrie.json 女武神图鉴
   - profile.json 用户信息
 - src
   - api 函数映射
@@ -73,11 +74,11 @@ git push
     - Layout 布局
     - Nav 导航栏
   - pages 路由映射
-    - blog 博客页面
+    - record 战场配装页面
     - 404.js 404 页面
     - index.js 项目入口
-  - utils 工具类函数
   - styles 页面样式
+  - utils 工具类函数
 - gatsby-config.js [基本配置文件](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/)
 - gatsby-node.js [节点配置文件](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
 - gatsby-browser.js 客户端相关配置。一些浏览器相关的 API 通过在这个文件里去实现，比如一些监听路由变化，注册 serviceWorker 等等。
@@ -187,11 +188,11 @@ type Post {
     - order 如何排序（可以用数组指定多个）
       - DESC 降序
       - ASC 升序（默认）
-  - filter 过滤
+  - filter [过滤](https://www.gatsbyjs.com/docs/graphql-reference/#complete-list-of-possible-operators)
     - eq 等于
     - ne 不等于
     - regex 正则
-    - global
+    - glob
     - in 数组元素
     - nin 不在此数组元素
     - gt 大于
