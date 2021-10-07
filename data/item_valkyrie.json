@@ -8,16 +8,16 @@
       "armor_id": "65",
       "armor_name": "薪炎之律者",
       "armor_foreign_name": "Herrscher of Flamescion",
-      "armor_alias": ["炎律", "萤火虫"],
+      "armor_alias": ["炎律", "萤火虫", "薪"],
       "armor_type": 3,
       "armor_desc": "异能",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 1792,
+      "gain_desc": ["时空", "吸引", "治疗"]
     }
   },
   {
@@ -36,10 +36,10 @@
       "is_increase": true,
       "increase_armor_name": "女武神 · 游侠",
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 528,
+      "gain_desc": ["流血", "吸引"]
     }
   },
   {
@@ -58,10 +58,10 @@
       "wake_armor_name": "白骑士 · 月光",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 2304,
+      "gain_desc": ["时空", "高频"]
     }
   },
   {
@@ -79,10 +79,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 5504,
+      "gain_desc": ["脆弱", "时空", "治疗", "爆发"]
     }
   },
   {
@@ -100,10 +100,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 528,
+      "gain_desc": ["流血", "吸引"]
     }
   },
   {
@@ -123,8 +123,8 @@
       "is_special": false,
       "injury_type": 1,
       "injury_desc": "物理",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "gain_type": 2304,
+      "gain_desc": ["时空", "高频"]
     }
   },
   {
@@ -144,8 +144,8 @@
       "is_special": false,
       "injury_type": 1,
       "injury_desc": "物理",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "gain_type": 4356,
+      "gain_desc": ["眩晕", "时空", "爆发"]
     }
   },
   {
@@ -157,17 +157,17 @@
       "armor_id": "56",
       "armor_name": "断罪影舞",
       "armor_foreign_name": "Danzai Spectramancer",
-      "armor_alias": ["影舞", "影", "鹦鹉"],
+      "armor_alias": ["断罪", "影"],
       "armor_type": 2,
       "armor_desc": "机械",
       "is_wake": false,
       "is_increase": true,
       "increase_armor_name": "影舞冲击",
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 32,
+      "gain_desc": ["重击"]
     }
   },
   {
@@ -188,8 +188,8 @@
       "is_special": false,
       "injury_type": 4,
       "injury_desc": "雷伤",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "gain_type": 6402,
+      "gain_desc": ["麻痹", "时空", "高频", "爆发"]
     }
   },
   {
@@ -208,10 +208,10 @@
       "is_increase": true,
       "increase_armor_name": "女武神 · 强袭",
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 6146,
+      "gain_desc": ["麻痹", "高频", "爆发"]
     }
   },
   {
@@ -231,8 +231,8 @@
       "is_special": false,
       "injury_type": 4,
       "injury_desc": "雷伤",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "gain_type": 2,
+      "gain_desc": ["麻痹"]
     }
   },
   {
@@ -243,17 +243,17 @@
       "valkyrie_alias": ["芽衣"],
       "armor_id": "6",
       "armor_name": "脉冲装 · 绯红",
-      "armor_foreign_name": "",
+      "armor_foreign_name": "Raiden Mei",
       "armor_alias": ["绯红", "绯"],
       "armor_type": 1,
       "armor_desc": "生物",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4368,
+      "gain_desc": ["流血", "时空", "爆发"]
     }
   },
   {
@@ -271,10 +271,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
+      "injury_type": 1,
+      "injury_desc": "物理",
       "gain_type": 0,
-      "gain_desc": "未知"
+      "gain_desc": ["未知"]
     }
   },
   {
@@ -292,10 +292,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 2048,
+      "gain_desc": ["高频"]
     }
   },
   {
@@ -313,10 +313,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": true,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 3,
+      "injury_desc": "冰伤",
+      "gain_type": 2304,
+      "gain_desc": ["时空", "高频"]
     }
   },
   {
@@ -335,10 +335,10 @@
       "wake_armor_name": "次元边界突破",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 3,
+      "injury_desc": "冰伤",
+      "gain_type": 4353,
+      "gain_desc": ["冻结", "时空", "爆发"]
     }
   },
   {
@@ -357,10 +357,10 @@
       "is_increase": true,
       "increase_armor_name": "驱动装 · 山吹",
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4928,
+      "gain_desc": ["虚弱", "时空", "吸引", "爆发"]
     }
   },
   {
@@ -379,10 +379,10 @@
       "wake_armor_name": "雪地狙击",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4,
+      "gain_desc": ["眩晕"]
     }
   },
   {
@@ -401,10 +401,10 @@
       "wake_armor_name": "驱动装 · 山吹",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 324,
+      "gain_desc": ["眩晕", "虚弱", "时空"]
     }
   },
   {
@@ -422,10 +422,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4370,
+      "gain_desc": ["麻痹", "流血", "时空", "爆发"]
     }
   },
   {
@@ -443,10 +443,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 776,
+      "gain_desc": ["点燃", "时空", "吸引"]
     }
   },
   {
@@ -458,16 +458,16 @@
       "armor_id": "9",
       "armor_name": "驱动装 · 山吹",
       "armor_foreign_name": "Bronya Zaychik",
-      "armor_alias": ["山吹", "山"],
+      "armor_alias": ["山吹"],
       "armor_type": 3,
       "armor_desc": "异能",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 5504,
+      "gain_desc": ["脆弱", "时空", "治疗", "爆发"]
     }
   },
   {
@@ -485,10 +485,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 1,
+      "gain_desc": ["冻结"]
     }
   },
   {
@@ -500,17 +500,17 @@
       "armor_id": "37",
       "armor_name": "真红骑士 · 月蚀",
       "armor_foreign_name": "Murata Himeko",
-      "armor_alias": ["真香", "真红"],
+      "armor_alias": ["真香", "真红", "真"],
       "armor_type": 2,
       "armor_desc": "机械",
       "is_wake": true,
       "wake_armor_name": "融核装 · 深红",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 8,
+      "gain_desc": ["点燃"]
     }
   },
   {
@@ -522,17 +522,17 @@
       "armor_id": "34",
       "armor_name": "极地战刃",
       "armor_foreign_name": "Murata Himeko",
-      "armor_alias": ["冰姬", "极地"],
+      "armor_alias": ["冰姬", "极地", "极"],
       "armor_type": 3,
       "armor_desc": "异能",
       "is_wake": true,
       "wake_armor_name": "战场疾风",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 3,
+      "injury_desc": "冰伤",
+      "gain_type": 1,
+      "gain_desc": ["冻结"]
     }
   },
   {
@@ -550,10 +550,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 4130,
+      "gain_desc": ["麻痹", "重击", "爆发"]
     }
   },
   {
@@ -571,10 +571,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 292,
+      "gain_desc": ["眩晕", "重击", "时空"]
     }
   },
   {
@@ -592,10 +592,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 1316,
+      "gain_desc": ["眩晕", "重击", "时空", "治疗"]
     }
   },
   {
@@ -613,10 +613,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 4136,
+      "gain_desc": ["点燃", "重击", "爆发"]
     }
   },
   {
@@ -634,10 +634,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": true,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 1792,
+      "gain_desc": ["时空", "吸引", "治疗"]
     }
   },
   {
@@ -656,10 +656,10 @@
       "is_increase": true,
       "increase_armor_name": "处刑装 · 紫苑",
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 2320,
+      "gain_desc": ["流血", "时空", "高频"]
     }
   },
   {
@@ -678,10 +678,10 @@
       "wake_armor_name": "女武神 · 誓约",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 304,
+      "gain_desc": ["流血", "重击", "时空"]
     }
   },
   {
@@ -699,10 +699,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 2688,
+      "gain_desc": ["脆弱", "吸引", "高频"]
     }
   },
   {
@@ -720,10 +720,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 6192,
+      "gain_desc": ["流血", "重击", "高频", "爆发"]
     }
   },
   {
@@ -741,10 +741,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 6152,
+      "gain_desc": ["点燃", "高频", "爆发"]
     }
   },
   {
@@ -762,10 +762,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 2306,
+      "gain_desc": ["麻痹", "时空", "高频"]
     }
   },
   {
@@ -784,10 +784,10 @@
       "wake_armor_name": "影骑士 · 月轮",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4992,
+      "gain_desc": ["脆弱", "时空", "吸引", "爆发"]
     }
   },
   {
@@ -799,17 +799,17 @@
       "armor_id": "51",
       "armor_name": "云墨丹心",
       "armor_foreign_name": "Azure Empyrea",
-      "armor_alias": ["云墨", "云", "墨符"],
+      "armor_alias": ["云墨", "云", "墨符", "墨", "仙"],
       "armor_type": 3,
       "armor_desc": "异能",
       "is_wake": true,
       "wake_armor_name": "炽翎",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 776,
+      "gain_desc": ["点燃", "时空", "吸引"]
     }
   },
   {
@@ -821,17 +821,17 @@
       "armor_id": "49",
       "armor_name": "雾都迅羽",
       "armor_foreign_name": "Hawk of the Fog",
-      "armor_alias": ["迅羽", "迅", "迅雷"],
+      "armor_alias": ["雾都", "迅", "迅雷"],
       "armor_type": 3,
       "armor_desc": "异能",
       "is_wake": false,
       "is_increase": true,
       "increase_armor_name": "女武神 · 迅羽",
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 290,
+      "gain_desc": ["麻痹", "重击", "时空"]
     }
   },
   {
@@ -849,10 +849,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 6416,
+      "gain_desc": ["流血", "时空", "高频", "爆发"]
     }
   },
   {
@@ -870,10 +870,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 384,
+      "gain_desc": ["虚弱", "时空"]
     }
   },
   {
@@ -891,10 +891,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 6416,
+      "gain_desc": ["流血", "时空", "高频", "爆发"]
     }
   },
   {
@@ -912,10 +912,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 1284,
+      "gain_desc": ["眩晕", "时空", "治疗"]
     }
   },
   {
@@ -933,10 +933,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 770,
+      "gain_desc": ["麻痹", "时空", "吸引"]
     }
   },
   {
@@ -948,16 +948,16 @@
       "armor_id": "39",
       "armor_name": "苍骑士 · 月魂",
       "armor_foreign_name": "Rita Rossweisse",
-      "armor_alias": ["冰箱", "冰香", "月魂"],
+      "armor_alias": ["冰箱", "冰香", "月魂", "魂", "苍"],
       "armor_type": 1,
       "armor_desc": "生物",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 3,
+      "injury_desc": "冰伤",
+      "gain_type": 4097,
+      "gain_desc": ["冻结", "爆发"]
     }
   },
   {
@@ -975,10 +975,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 2,
+      "gain_desc": ["麻痹"]
     }
   },
   {
@@ -996,10 +996,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 256,
+      "gain_desc": ["时空"]
     }
   },
   {
@@ -1017,10 +1017,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": true,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 258,
+      "gain_desc": ["麻痹", "时空"]
     }
   },
   {
@@ -1039,10 +1039,10 @@
       "wake_armor_name": "女武神 · 强袭",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 264,
+      "gain_desc": ["点燃", "时空"]
     }
   },
   {
@@ -1061,10 +1061,10 @@
       "wake_armor_name": "脉冲装 · 绯红",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4112,
+      "gain_desc": ["流血", "爆发"]
     }
   },
   {
@@ -1083,10 +1083,10 @@
       "wake_armor_name": "影舞冲击",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 3,
+      "injury_desc": "冰伤",
+      "gain_type": 1,
+      "gain_desc": ["冻结"]
     }
   },
   {
@@ -1098,17 +1098,17 @@
       "armor_id": "35",
       "armor_name": "原罪猎人",
       "armor_foreign_name": "Kallen · Kaslana",
-      "armor_alias": ["快乐卡莲", "舞卡", "原罪"],
+      "armor_alias": ["快乐卡莲", "舞卡", "原罪", "原"],
       "armor_type": 2,
       "armor_desc": "机械",
       "is_wake": true,
       "wake_armor_name": "女武神 · 游侠",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 2176,
+      "gain_desc": ["脆弱", "高频"]
     }
   },
   {
@@ -1120,17 +1120,17 @@
       "armor_id": "30",
       "armor_name": "第六夜想曲",
       "armor_foreign_name": "Kallen · Kaslana",
-      "armor_alias": ["冰卡"],
+      "armor_alias": ["冰卡", "六", "夜"],
       "armor_type": 3,
       "armor_desc": "异能",
       "is_wake": true,
       "wake_armor_name": "圣女祈祷",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 3,
+      "injury_desc": "冰伤",
+      "gain_type": 1,
+      "gain_desc": ["冻结"]
     }
   },
   {
@@ -1142,17 +1142,17 @@
       "armor_id": "26",
       "armor_name": "圣仪装 · 今样",
       "armor_foreign_name": "Kallen · Kaslana",
-      "armor_alias": ["今样"],
+      "armor_alias": ["今样", "今"],
       "armor_type": 2,
       "armor_desc": "机械",
       "is_wake": true,
       "wake_armor_name": "领域装 · 白练",
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 260,
+      "gain_desc": ["眩晕", "时空"]
     }
   },
   {
@@ -1171,10 +1171,10 @@
       "is_increase": true,
       "increase_armor_name": "樱桃炸弹",
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 768,
+      "gain_desc": ["时空", "吸引"]
     }
   },
   {
@@ -1192,10 +1192,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 768,
+      "gain_desc": ["时空", "吸引"]
     }
   },
   {
@@ -1213,10 +1213,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 1,
+      "gain_desc": ["冻结"]
     }
   },
   {
@@ -1234,10 +1234,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 3,
+      "injury_desc": "冰伤",
+      "gain_type": 1,
+      "gain_desc": ["冻结"]
     }
   },
   {
@@ -1249,16 +1249,16 @@
       "armor_id": "48",
       "armor_name": "彼岸双生",
       "armor_foreign_name": "Stygian Nymph",
-      "armor_alias": ["黑希", "双生", "黑"],
+      "armor_alias": ["黑希", "双生", "双", "彼", "希"],
       "armor_type": 4,
       "armor_desc": "量子",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 288,
+      "gain_desc": ["重击", "时空"]
     }
   },
   {
@@ -1270,16 +1270,16 @@
       "armor_id": "44",
       "armor_name": "幻海梦蝶",
       "armor_foreign_name": "Swallowtail Phantasm",
-      "armor_alias": ["幻海", "梦蝶", "蝶", "A希"],
+      "armor_alias": ["幻海", "梦蝶", "蝶", "幻", "A希"],
       "armor_type": 4,
       "armor_desc": "量子",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4096,
+      "gain_desc": ["爆发"]
     }
   },
   {
@@ -1291,16 +1291,16 @@
       "armor_id": "59",
       "armor_name": "不灭星锚",
       "armor_foreign_name": "Dea Anchora",
-      "armor_alias": ["星锚", "星", "黄金鹅", "星猫"],
+      "armor_alias": ["星锚", "星", "锚", "黄金鹅", "星猫"],
       "armor_type": 1,
       "armor_desc": "生物",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 776,
+      "gain_desc": ["点燃", "时空", "吸引"]
     }
   },
   {
@@ -1312,16 +1312,16 @@
       "armor_id": "53",
       "armor_name": "辉骑士 · 月魄",
       "armor_foreign_name": "Bright Knight: Excelsis",
-      "armor_alias": ["月魄", "S鹅", "魄"],
+      "armor_alias": ["月魄", "S鹅", "魄", "呆", "鹅"],
       "armor_type": 2,
       "armor_desc": "机械",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 4384,
+      "gain_desc": ["重击", "时空", "爆发"]
     }
   },
   {
@@ -1333,16 +1333,16 @@
       "armor_id": "52",
       "armor_name": "女武神 · 荣光",
       "armor_foreign_name": "Valkyrie Gloria",
-      "armor_alias": ["荣光", "A幽"],
+      "armor_alias": ["荣光", "A幽", "荣"],
       "armor_type": 4,
       "armor_desc": "量子",
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 264,
+      "gain_desc": ["点燃", "时空"]
     }
   },
   {
@@ -1354,16 +1354,16 @@
       "armor_id": "60",
       "armor_name": "明日福音",
       "armor_foreign_name": "Asuka",
-      "armor_alias": ["香香"],
+      "armor_alias": ["香香", "香"],
       "armor_type": 1,
       "armor_desc": "生物",
       "is_wake": false,
       "is_increase": false,
       "is_special": true,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 256,
+      "gain_desc": ["时空"]
     }
   },
   {
@@ -1381,10 +1381,10 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": true,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 2304,
+      "gain_desc": ["时空", "高频"]
     }
   },
   {
@@ -1402,10 +1402,52 @@
       "is_wake": false,
       "is_increase": false,
       "is_special": false,
-      "injury_type": 0,
-      "injury_desc": "未知",
-      "gain_type": 0,
-      "gain_desc": "未知"
+      "injury_type": 1,
+      "injury_desc": "物理",
+      "gain_type": 2304,
+      "gain_desc": ["时空", "高频"]
+    }
+  },
+  {
+    "valkyrie": {
+      "valkyrie_type": 18,
+      "valkyrie_name": "梅比乌斯",
+      "valkyrie_foreign_name": "Mobius",
+      "valkyrie_alias": [],
+      "armor_id": "67",
+      "armor_name": "无限 · 噬界之蛇",
+      "armor_foreign_name": "Infinite Ouroboros",
+      "armor_alias": ["蛇", "蛇蛇", "蛇主"],
+      "armor_type": 2,
+      "armor_desc": "机械",
+      "is_wake": false,
+      "is_increase": false,
+      "is_special": false,
+      "injury_type": 4,
+      "injury_desc": "雷伤",
+      "gain_type": 256,
+      "gain_desc": ["时空"]
+    }
+  },
+  {
+    "valkyrie": {
+      "valkyrie_type": 19,
+      "valkyrie_name": "渡鸦",
+      "valkyrie_foreign_name": "Raven",
+      "valkyrie_alias": [],
+      "armor_id": "68",
+      "armor_name": "午夜苦艾",
+      "armor_foreign_name": "Midnight Absinthe",
+      "armor_alias": ["鸦", "渡鸦"],
+      "armor_type": 5,
+      "armor_desc": "虚数",
+      "is_wake": false,
+      "is_increase": false,
+      "is_special": false,
+      "injury_type": 2,
+      "injury_desc": "火伤",
+      "gain_type": 256,
+      "gain_desc": ["时空"]
     }
   }
 ]
