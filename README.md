@@ -63,11 +63,17 @@ git push
 
 ## 项目结构
 
-- data 数据
-  - records 配装
-  - arena_weekly.json 每周战场
-  - item_valkyrie.json 女武神图鉴
-  - profile.json 用户信息
+- data 数据库
+  - records 战场/深渊配装库（随缘更）
+  - arena_weekly.json 本周怪物及预测分数线（周更）
+  - item_boss.json 怪物库（版更）
+  - item_elf.json 道具-人偶（版更）
+  - item_key.json 道具-神之键（版更）
+  - item_medal.json 道具-勋章（版更）
+  - item_stigmata.json 道具-圣痕（版更）
+  - item_valkyrie.json 道具-角色（版更）
+  - item_weapon.json 道具-武器（版更）
+  - profile.json 用户信息/所持道具（随缘更）
 - src
   - api 函数映射
   - components 通用组件
@@ -133,15 +139,15 @@ git push
   - type 定义对象(?)
     - 对象类型
     - 简单类型/标量类型
-      - `String` UTF-8 字符串
-      - `Int` 有符号 32 位整数
+      - `String` UTF-8字符串
+      - `Int` 有符号32位整数
       - `Float` 有符号双精度浮点值
       - `Boolean` 布尔值
       - `ID` 唯一标识符
       - `Date` 日期
       - `String!` 非空字符串
       - `[String!]` 字符串数组可以为空，不能有空值元素
-      - `[Episode!]!` 非空 Episode 数组
+      - `[Episode!]!` 非空Episode数组
     - query 查询
     - mutation 变更
     - subscription 订阅
@@ -202,10 +208,10 @@ type Post {
     - elemMatch 过滤器，返回一个元素数组
   - skip 跳过
   - limit 数量限制
-- 用于date字段
+- 用于`date`字段
   - formatString 格式化日期（参考[Moment.js](https://momentjs.com/)的 Format Dates）
   - locale 语言
-- 用于excerpt字段
+- 用于`excerpt`字段
   - pruneLength
   - truncate
   - format
