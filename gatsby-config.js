@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    version: `v5.1`,
+    version: `v5.2 无限命途`,
   },
   plugins: [
     `gatsby-plugin-gatsby-cloud`,
